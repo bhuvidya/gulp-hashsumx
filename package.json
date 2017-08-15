@@ -1,5 +1,5 @@
 {
-  "name": "gulp-hashsum",
+  "name": "gulp-hashsumx",
   "version": "1.0.0",
   "description": "Generate a checksum file (like shasum, md5sum, ...).",
   "keywords": [
@@ -11,7 +11,7 @@
     "md5sum",
     "checksum"
   ],
-  "homepage": "http://binarybhu.com/code/gulp/gulp-hashsum",
+  "homepage": "http://binarybhu.com/code/gulp/gulp-hashsumx",
   "license": "MIT",
   "author": {
     "name": "bhu Boue vidya (originally Remko Tronçon)"
@@ -46,7 +46,7 @@
   },
   "_id": "gulp-hashsumx@1.0.0",
   "_shasum": "ec58e0c9bbebfac1dfd5baa277ae00d1b349538c",
-  "_from": "gulp-hashsum@*",
+  "_from": "gulp-hashsumx@*",
   "_npmVersion": "1.4.17",
   "_npmUser": {
     "name": "remko",
@@ -60,8 +60,8 @@
   ],
   "dist": {
     "shasum": "ec58e0c9bbebfac1dfd5baa277ae00d1b349538c",
-    "tarball": "http://registry.npmjs.org/gulp-hashsum/-/gulp-hashsum-1.0.0.tgz"
+    "tarball": "http://registry.npmjs.org/gulp-hashsumx/-/gulp-hashsumx-1.0.0.tgz"
   },
   "directories": {},
-  "_resolved": "https://registry.npmjs.org/gulp-hashsum/-/gulp-hashsum-1.0.0.tgz"
+  "_resolved": "https://registry.npmjs.org/gulp-hashsumx/-/gulp-hashsumx-1.0.0.tgz"
 }
