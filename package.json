@@ -21,10 +21,6 @@
     "type": "git",
     "url": "https://github.com/bhuvidya/gulp-hashsumx"
   },
-  "scripts": {
-    "test": "mocha",
-    "coverage": "istanbul cover node_modules/mocha/bin/_mocha"
-  },
   "dependencies": {
     "buffertools": "~2.1.2",
     "gulp-util": "~2.2.6",
@@ -40,17 +36,8 @@
     "mock-fs": "~2.3.1",
     "sleep": "~1.1.8"
   },
-  "gitHead": "03d17016cb21a71b58432beca2f53bdb1518b70d",
   "bugs": {
     "url": "https://github.com/bhuvidya/gulp-hashsumx/issues"
-  },
-  "_id": "gulp-hashsumx@1.0.0",
-  "_shasum": "ec58e0c9bbebfac1dfd5baa277ae00d1b349538c",
-  "_from": "gulp-hashsumx@*",
-  "_npmVersion": "1.4.17",
-  "_npmUser": {
-    "name": "remko",
-    "email": "remko@el-tramo.be"
   },
   "maintainers": [
     {
@@ -58,10 +45,4 @@
       "email": "bhuvidya@gmail.com"
     }
   ],
-  "dist": {
-    "shasum": "ec58e0c9bbebfac1dfd5baa277ae00d1b349538c",
-    "tarball": "http://registry.npmjs.org/gulp-hashsumx/-/gulp-hashsumx-1.0.0.tgz"
-  },
-  "directories": {},
-  "_resolved": "https://registry.npmjs.org/gulp-hashsumx/-/gulp-hashsumx-1.0.0.tgz"
 }
