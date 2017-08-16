@@ -118,6 +118,10 @@ function hashsumx(options) {
                 console.log(indata);
             }
 
+            var outputDir = path.dirname(template_output_file);
+            if (!fs.existsSync(outputDir)) {
+                fs.mkdirSync(outputDir);
+            }
             fs.writeFileSync(template_output_file, indata);
         }
 
