@@ -22,6 +22,7 @@ function hashsumx(options) {
 		template_output: null,
 		hash: "sha1",
         hashlen: 40,
+        format: 'get',
         debug: false
 	});
 
@@ -56,7 +57,13 @@ function hashsumx(options) {
 		var hash = crypto.createHash(options.hash).update(file.contents, "binary").digest("hex");
         var hash_short = hash.substr(0, options.hashlen);
 
-        var new_filename = path.resolve(dirname, basename2 + '._v' + hash_short + ext);
+        var new_filename;
+        if (options.format === 'embedded') {
+            new_filename = path.resolve(dirname, basename2 + '._v' + hash_short + ext);
+        } else {
+            new_filename = path.resolve(dirname, basename + '?' + hash_short);
+        }
+
         var new_basename = path.basename(new_filename);
 
         hashes.push({
