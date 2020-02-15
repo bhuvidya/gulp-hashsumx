@@ -22,19 +22,18 @@
     "url": "https://github.com/bhuvidya/gulp-hashsumx"
   },
   "dependencies": {
-    "gulp-json-format": "^2.0.0",
-    "gulp-util": "^3.0.8",
-    "lodash": "^4.17.15",
-    "mkdirp": "^1.0.3",
-    "slash": "^3.0.0",
-    "through": "^2.3.8"
+    "gulp-util": "~2.2.6",
+    "lodash": "~2.4.1",
+    "mkdirp": "~0.5.0",
+    "slash": "~0.1.1",
+    "through": "~2.3.4"
   },
   "devDependencies": {
-    "chai": "^4.2.0",
-    "istanbul": "^0.4.5",
-    "mocha": "^7.0.1",
-    "mock-fs": "^4.10.4",
-    "sleep": "^6.1.0"
+    "chai": "~1.9.1",
+    "istanbul": "~0.3.0",
+    "mocha": "~1.21.4",
+    "mock-fs": "~2.3.1",
+    "sleep": "~1.1.8"
   },
   "bugs": {
     "url": "https://github.com/bhuvidya/gulp-hashsumx/issues"

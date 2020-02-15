@@ -2,7 +2,6 @@
 
 "use strict";
 
-//var buffertools = require("buffertools");
 var crypto = require("crypto");
 var gutil = require("gulp-util");
 var _ = require("lodash");
