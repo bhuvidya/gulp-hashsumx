@@ -1,6 +1,6 @@
 {
   "name": "gulp-hashsumx",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Generate a checksum file (like shasum, md5sum, ...).",
   "keywords": [
     "gulp",
@@ -11,7 +11,7 @@
     "md5sum",
     "checksum"
   ],
-  "homepage": "http://binarybhu.com/code/gulp/gulp-hashsumx",
+  "homepage": "http://github.com/bhuvidya/gulp-hashsumx",
   "license": "MIT",
   "author": {
     "name": "bhu Boue vidya (originally Remko Tronçon)"
