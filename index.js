@@ -117,7 +117,7 @@ function hashsumx(options) {
                 if (dbg) {
                     console.log('doing: ' + item.basename);
                 }
-                indata = indata.replace(new RegExp(item.basename, 'g'), item.new_basename);
+                indata = indata.replace(new RegExp(_.escapeRegExp(item.basename), 'g'), item.new_basename);
             }
 
             if (dbg) {
